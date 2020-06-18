@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
 body{
     margin: 0;
 }
@@ -20,29 +21,37 @@ body{
  margin-bottom: 0px;
 
 }
+
 #header h4{
     margin-top: 0px;
+    color: grey;
 }
 #logo{
     margin: 15px;
     margin-top: 30px;  
 }
 header{
-    width: 100%;
-    border-bottom: 10px solid black;
+    margin-left:15%;
+    width: 900px;
+    /* border-bottom: 10px solid black; */
     /* padding: 15px; */
     /* border-image: url(imgs/fb-icon.png) 30 stretch; */
 }
 #title{
     float:left;
-    margin-left: 200px;
+   
     text-align: left;
+    
 }
 #title h4{
     color: silver;
+    margin-top: 0px;
 }
 #title h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0px;
+
 }
 #print h6{
     color:silver;
@@ -54,15 +63,24 @@ header{
 }
 #print{
     float:right;
+    margin-top: 50px;
+
+}
+.tandp{
+    width: 900px;
+    margin-left: 15%;
 }
 #choco{
     margin: auto;
     margin-top: 100px;
+    margin-left: 15%;
     width: 960px;
+    position: relative;
 }
 #para p{
     margin-left: 15%;
     width: 901px;
+    font-family:'Times New Roman', Times, serif ;
 }
 #lists{
     background-image: url(imgs/list-bg.png);
@@ -71,15 +89,67 @@ header{
     margin-left: 14%;
     font-size: 20px;
     padding-bottom: 30px;
-    border-bottom: orchid 5px solid;
+    
 }
 #lists #leftlist{
-    list-style-type: square;
+    list-style: none;
     font-family: cursive;
     float: left;
 }
 #lists #rightlist{
-    list-style-type: square;
+    list-style: none;
     font-family: cursive;   
     float: right;
+}
+.footer{
+    width: 900px;
+    margin-left: 15%;
+}
+.footer .bio{
+    display: inline-block;
+   
+}
+
+ .submit {
+    width: fit-content;
+    
+    float: right;
+    /* margin: 25px; */
+  
+}
+/* .writer-image{
+    margin-left: 15%;
+} */
+button{
+    color: white;
+    background-color: brown;
+    /* width: 100px; */
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 25px;
+    /* margin-right: 230px */
+}
+.last img{
+    display: block;
+    margin: auto;
+    margin-top: -25px;
+}
+.last p{
+    text-align: center;
+    color: silver;
+    font: size 1.5em;
+}
+.line2 {
+    background-image: url(imgs/hr-img.png) ;
+    width: 900px;
+    margin-left: 15%;
+    height: 15px;
+
+}
+.line3 {
+    background-image: url(imgs/hr-img.png) ;
+width: 900px;
+margin-left: 15%;
+height: 15px;
+
 }
