@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+    margin: 0;
+}
+#socialmedia{
+    float: right;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+#header{
+    display: inline-block;
+    
+}
+#header h2{
+ /* margin-top: -30px;
+ margin-left: 50px; */
+ font-family: 'Pacifico', cursive;
+ font-size: 35px;
+ font-style: italic;
+ margin-bottom: 0px;
+
+}
+#header h4{
+    margin-top: 0px;
+}
+#logo{
+    margin: 15px;
+    margin-top: 30px;  
+}
+header{
+    width: 100%;
+    border-bottom: 10px solid black;
+    /* padding: 15px; */
+    /* border-image: url(imgs/fb-icon.png) 30 stretch; */
+}
+#title{
+    float:left;
+    margin-left: 200px;
+    text-align: left;
+}
+#title h4{
+    color: silver;
+}
+#title h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#print h6{
+    color:silver;
+    float: right;
+}
+#print img{
+    float: left;
+    margin-top: 25px;  
+}
+#print{
+    float:right;
+}
+#choco{
+    margin: auto;
+    margin-top: 100px;
+    width: 960px;
+}
+#para p{
+    margin-left: 15%;
+    width: 901px;
+}
+#lists{
+    background-image: url(imgs/list-bg.png);
+    width: 901px;
+    height:305px;
+    margin-left: 14%;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: orchid 5px solid;
+}
+#lists #leftlist{
+    list-style-type: square;
+    font-family: cursive;
+    float: left;
+}
+#lists #rightlist{
+    list-style-type: square;
+    font-family: cursive;   
+    float: right;
+}
